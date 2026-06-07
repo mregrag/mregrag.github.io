@@ -162,7 +162,6 @@ plt.savefig("assets/img/posts/lr_fit.png", dpi=150)
 plt.show()
 ```
 
-![Regression Line](/assets/img/posts/lr_fit.png)
 
 ### 2. Loss Curve
 
@@ -174,11 +173,9 @@ plt.ylabel("MSE Loss")
 plt.title("Loss over Training Epochs")
 plt.grid(True, linestyle="--", alpha=0.5)
 plt.tight_layout()
-plt.savefig("assets/img/posts/lr_loss.png", dpi=150)
 plt.show()
 ```
 
-![Loss Curve](/assets/img/posts/lr_loss.png)
 
 The loss drops sharply in the first few epochs, then flattens as the model converges — this is the classic gradient descent behavior.
 
